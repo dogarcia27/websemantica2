@@ -1,0 +1,97 @@
+<!--
+
+    ALUMNO: Dorkaitz García Martínez
+    MÓDULO: LMSGI
+    UD: 02
+    TAREA EVALUATIVA 02
+
+    FECHA: 23-10-2023 
+
+    DESCRIPCION: Web pensada para una diseñadora de modas
+
+    Requisitos: Listado de noticias con enlaces de seguir leyendo y enlace con pagina externa.
+                Uso de etiquetas semánticas y de flexbox para un mejor diseño "responsive".
+                Todos los documentos generados deberán estar bien formados y validados.
+                Introducir 2 elementos o funcionalidades nuevos(no vistas en la UD).
+                Cumplir con los derechos de autor (Creative Commons, copyright...). de los recursos utilizados.
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mariam Villalobos diseñaddora de moda</title>
+        <link rel="stylesheet" href="./archivos-css/style-listados.css">
+    </head>
+    <body>
+        
+        <header class="cabecera">
+            <img class="logo" src="imagenes/logo5.jpg" width="540px" height="280px">
+            
+        </header>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./transformaciones.html">Transformaciones</a></li>
+                <li><a href="./disennos.html">Diseños</a></li>
+                <li><a href="./eventos.html">Últimos eventos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            
+        </nav>
+        <main>
+            <h1>¡Lo último en moda!</h1>
+            <section class="listado">
+                <h1>Veamos que es lo que ha pasado en los últimos eventos de moda</h1>
+                    <!--- Elemento de lista 1 -->
+                    <article class="elemento-lista">
+                        <div class="texto-elemento">
+                            <h2>Latin American Fashion Week</h2>
+                            <p>Una vez más vuelve este maravilloso evento que reúne a varios países latinoamericanos</p>
+                            <button>Leer más</button>
+                        </div>
+                        <div class="imagen-elemento">
+                            <img src="imagenes/lafw.JPG" alt="imgen del evento Latin American Fashion Week 2022">
+                        </div>
+                    </article>
+                    <!--- Elemento de lista 2 -->
+                    <article class="elemento-lista">
+                        <div class="texto-elemento">
+                            <h2>Colombiamoda</h2>
+                            <p>
+                                Descubre todo lo que nos dejó la semana de la moda de Colombia en esta edición de 2023.
+                            </p>
+                            <button><a href="https://ferias.inexmoda.org.co/revive-pasarelas/" target="_blank">Leer más</a></button>
+                        </div>
+                        <div class="imagen-elemento">
+                            <img src="imagenes/colombiamoda.JPG" alt="imgen del evento Colombiamoda">
+                        </div>
+                    </article>
+                    <!--- Elemento de lista 3 -->
+                    <article class="elemento-lista">
+                        <div class="texto-elemento">
+                            <h2>Bogotá Fashion Week 3</h2>
+                            <p>Increíble edición por el 145º aniversario de la cámara de comercio de Bogotá</p>
+                            <button><a href="https://www.bogotafashionweek.com.co/" target="_blank">Leer más</a></button>
+                        </div>
+                        <div class="imagen-elemento">
+                            <img src="imagenes/bfw.jpg" alt="iamgen de la bogotá fashion week">
+                        </div>
+                    </article>
+            </section>
+        </main>
+        <aside class="enlaces-redes">
+            <h3>
+                Visita mis redes:
+            </h3>
+            <a href="https://www.facebook.com/profile.php?id=100087753283803&mibextid=tzlV2A" target="_blank"><img src="./imagenes/facebook.png" width="80%" height="80%"></a>
+            <a href="https://instagram.com/mvillalobb?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="./imagenes/instagram.png" width="80%" height="80%"></a>
+            <a href="https://www.tiktok.com/@mariamvillalobos1?_t=8hiOTLaPm0j&_r=1" target="_blank"><img src="./imagenes/tik-tok.png" width="80%" height="80%"></a>
+        </aside>
+        <footer>
+            <div class="autor">
+                Autoría y licencias: Página web realizada por Dorkaitz García Martínez con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!--
+
+    ALUMNO: Dorkaitz García Martínez
+    MÓDULO: LMSGI
+    UD: 02
+    TAREA EVALUATIVA 02
+
+    FECHA: 23-10-2023 
+
+    DESCRIPCION: Web pensada para una diseñadora de modas.
+
+    Requisitos: Listado de productos con link a información detallada.
+                Uso de etiquetas semánticas y de flexbox para un mejor diseño "responsive".
+                Todos los documentos generados deberán estar bien formados y validados.
+                Introducir 2 elementos o funcionalidades nuevos(no vistas en la UD).
+                Cumplir con los derechos de autor (Creative Commons, copyright...). de los recursos utilizados.
+
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mariam Villalobos diseñadora de moda</title>
+        <link rel="stylesheet" href="./archivos-css/style-listados.css">
+    </head>
+    <body>
+        <header class="cabecera">
+            <img class="logo" src="imagenes/logo5.jpg" width="540px" height="280px">
+        </header>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./transformaciones.html">Transformaciones</a></li>
+                <li><a href="./disennos.html">Diseños</a></li>
+                <li><a href="./eventos.html">Últimos eventos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>    
+        </nav>
+        <main>
+            <h1>Mis diseños para vosotras</h1>
+            <section class="listado ">
+                <h1>Cuando vuestras ideas toman forma</h1>
+                <!--- Elemento de lista 1 -->
+                <article class="elemento-lista">
+                    <div class="texto-elemento">
+                        <h2>Vestidito negro</h2>
+                        <p>"Valoracion de la clienta"</p>
+                        <button>Leer más</button>
+                    </div>
+                    <div class="imagen-elemento">
+                        <img src="./imagenes/vestido-negro1.jpg" alt="vestido negro de verano">
+                    </div>
+                </article>
+                <!--- Elemento de lista 2 -->
+                <article class="elemento-lista">
+                    <div class="texto-elemento">
+                        <h2>Chaqueta con flecos</h2>
+                        <p>"Valoracion de la clienta"</p>
+                        <button>Leer más</button>
+                    </div>
+                    <div class="imagen-elemento">
+                        <img src="imagenes/chaqueta-flecos1.jpg" alt="chaqueta plateada con flecos">
+                    </div>
+                </article>
+                <!--- Elemento de lista 3 -->
+                <article class="elemento-lista">
+                    <div class="texto-elemento">
+                        <h2>Corsé</h2>
+                        <p>"Valoracion de la clienta"</p>
+                        <button><a href="./disennos/disenno-1.html">Leer más</a></button>
+                    </div>
+                    
+                    <div class="imagen-elemento">
+                        <img src="imagenes/corset.JPG" alt="imagen de un corset">
+                    </div>
+                </article>
+            </section>
+        </main>
+        <aside class="enlaces-redes">
+            <h3>
+                Visita mis redes:
+            </h3>
+            <a href="https://www.facebook.com/profile.php?id=100087753283803&mibextid=tzlV2A" target="_blank"><img src="./imagenes/facebook.png" width="80%" height="80%"></a>
+            <a href="https://instagram.com/mvillalobb?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="./imagenes/instagram.png" width="80%" height="80%"></a>
+            <a href="https://www.tiktok.com/@mariamvillalobos1?_t=8hiOTLaPm0j&_r=1" target="_blank"><img src="./imagenes/tik-tok.png" width="80%" height="80%"></a>
+        </aside>
+        <footer>
+            <div class="autor">
+                Autoría y licencias: Página web realizada por Dorkaitz García Martínez con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.
+            </div>
+        </footer>
+    </body>
+</html>

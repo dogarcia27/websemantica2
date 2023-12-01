@@ -1,0 +1,63 @@
+@import url("./styles.css");
+section {
+    text-align: justify;
+    font-size: 1.3em;
+}
+article, .parte-proceso {
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.proceso-corse {
+    flex-wrap: wrap;
+}
+.texto-seccion {
+    width: 45%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parte-proceso:nth-child(2) {
+    flex-direction: row-reverse;
+}
+h2{
+    text-align: center;
+}
+p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.texto-seccion a {
+    text-decoration: underline;
+}
+.imagen-disenno {
+    width: 50%;
+}
+.imagen-disenno img {
+    width: 100%;
+    height: 100%;
+}
+.mi-corse{
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor {
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.imagen-contenedor {
+    width: 25%;
+}
+.imagen-contenedor img {
+    width: 100%;
+    height: 100%;
+}
+.imagen-contenedor video {
+    width: 100%;
+    height: 100%;
+}

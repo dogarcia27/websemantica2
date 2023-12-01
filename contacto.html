@@ -1,0 +1,90 @@
+<!--
+
+    ALUMNO: Dorkaitz García Martínez
+    MÓDULO: LMSGI
+    UD: 02
+    TAREA EVALUATIVA 02
+
+    FECHA: 23-10-2023 
+
+    DESCRIPCION: Web pensada para una diseñadora de modas.
+
+    Requisitos: Formulario para contactar y enviar comentarios por correo.
+                Uso de etiquetas semánticas y de flexbox para un mejor diseño "responsive".
+                Todos los documentos generados deberán estar bien formados y validados.
+                Introducir 2 elementos o funcionalidades nuevos(no vistas en la UD).
+                Cumplir con los derechos de autor (Creative Commons, copyright...). de los recursos utilizados.
+
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mariam Villalobos diseñadora de moda</title>
+        <link rel="stylesheet" href="./archivos-css/style-contacto.css">
+    </head>
+    <body>
+        <header class="cabecera">
+            <img class="logo" src="imagenes/logo5.jpg" width="540px" height="280px">
+            
+        </header>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./transformaciones.html">Transformaciones</a></li>
+                <li><a href="./disennos.html">Diseños</a></li>
+                <li><a href="./eventos.html">Últimos eventos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            
+        </nav>
+        <main>
+            <h1>¿Qué puedo crear para ti?</h1>
+            <div class="div-formulario">
+                
+                <section class="contenedor-form">
+                    <h1>¿Sueñas con alguna prenda? ¡Contáctame y la haré realidad!</h1>
+                    <form class="formulario" action="mailto:dogarcia@birt.eus" method="post">
+                        <fieldset class="nombre-apellido">
+                            <legend>¿Cómo te llamas?</legend>
+                            <label for="nombre">Nombre
+                                <input type="text" name="nombre">
+                            </label>
+                            <label for="apellido">Apellido
+                                <input type="text" name="apellido">
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Tu dirección de email es:</legend>
+                            <input type="email" name="email" class="email">
+                        </fieldset>
+                        <fieldset>
+                            <legend>¿Qué puedo hacer por ti?</legend>
+                            <textarea name="consulta" rows="5" placeholder="Escribe aquí tu mensaje..."></textarea>
+                        </fieldset>
+                        <button type="submit" class="boton">Enviar</button>
+                    </form>
+                    
+                </section>
+                <img src="./imagenes/maniqui.JPG" alt="foto de un maniquí">
+            </div>   
+        </main>
+        <aside class="enlaces-redes">
+            <h3>
+                Visita mis redes:
+            </h3>
+            
+            <a href="https://www.facebook.com/profile.php?id=100087753283803&mibextid=tzlV2A" target="_blank"><img src="./imagenes/facebook.png" width="80%" height="80%"></a>
+            <a href="https://instagram.com/mvillalobb?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="./imagenes/instagram.png" width="80%" height="80%"></a>
+            <a href="https://www.tiktok.com/@mariamvillalobos1?_t=8hiOTLaPm0j&_r=1" target="_blank"><img src="./imagenes/tik-tok.png" width="80%" height="80%"></a>
+            
+            
+        </aside>
+        <footer>
+            <div class="autor">
+                Autoría y licencias: Página web realizada por Dorkaitz García Martínez con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.
+            </div>
+        </footer>
+    </body>
+</html>

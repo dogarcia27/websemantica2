@@ -1,0 +1,150 @@
+<!--
+
+    ALUMNO: Dorkaitz García Martínez
+    MÓDULO: LMSGI
+    UD: 02
+    TAREA EVALUATIVA 02
+
+    FECHA: 23-10-2023 
+
+    DESCRIPCION: Web pensada para una diseñadora de modas.
+
+    Requisitos: Informacion detallada de una prenda (Corsé).
+                Debe incorporar algún elemento multimedia (imgen, video, etc).
+                Uso de etiquetas semánticas y de flexbox para un mejor diseño "responsive".
+                Todos los documentos generados deberán estar bien formados y validados.
+                Introducir 2 elementos o funcionalidades nuevos(no vistas en la UD).
+                Cumplir con los derechos de autor (Creative Commons, copyright...). de los recursos utilizados.
+
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mariam Villalobos diseñadora de moda</title>
+        <link rel="stylesheet" href="../archivos-css/style-disenno.css">
+        
+    </head>
+    <body>
+        
+        <header class="cabecera">
+            <img class="logo" src="../imagenes/logo5.jpg" width="540px" height="280px">
+            
+        </header>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../transformaciones.html">Transformaciones</a></li>
+                <li><a href="../disennos.html">Diseños</a></li>
+                <li><a href="../eventos.html">Últimos eventos</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+            </ul>
+            
+        </nav>
+        <main>
+            <h1>Diseño de corsé</h1>
+            <section class="disenno-corse">
+                <h3>
+                    ¡Hola amigas! En esta página les mostraré el proceso para la confección de un corsé, el cual me solicitó
+                    una de ustedes. Pero antes, lo que más me gusta, echémosle un poco de chismecito a su historia:
+                </h3>
+                <article class="historia-corse">
+                    <div class="texto-seccion">
+                        El corsé, una prenda interior femenina, tuvo su origen en Italia en el siglo XVI. Catalina de Médici lo introdujo
+                        en Francia, donde ganó popularidad. Aunque inicialmente fue usado por hombres y mujeres, con el tiempo se convirtió 
+                        en una prenda exclusiva para las mujeres. Durante los siglos XVII y XVIII, el corsé se usaba para acentuar la cintura
+                        y elevar el busto, creando la silueta en forma de "S" que era deseada en esa época. A finales del siglo XIX, el corsé
+                        evolucionó y se adaptó a las tendencias de moda de la época, manteniendo su relevancia.En el siglo XX, aunque fue
+                        reemplazado por el sujetador, el corsé sigue siendo una prenda icónica en la moda y la cultura pop. Hoy en día, el
+                        corsé se utiliza tanto en la moda de alta costura como en la moda de calle, y ha sido adoptado por varias subculturas
+                        como un símbolo de empoderamiento y expresión personal.
+                        <p class="enlace-wikipedia">
+                            Si le ha gustado esta historia, puede averiguar más sobre ella
+                            <a href="https://es.wikipedia.org/wiki/Historia_del_cors%C3%A9" target ="_blank">aquí.</a>
+                        </p>
+                    </div>
+                    <div class="imagen-disenno">
+                        <img src="../imagenes/catalina-medicci2.jpg" alt="imagen de catalina de medicci usando corse">
+                    </div>
+                </article>
+                <h2>¿Te animas a crear tu propio corsé?</h2>
+                <article class="proceso-corse">
+                    <div class="parte-proceso">
+                        <div class="texto-seccion">
+                            <p>Crear un corsé puede ser un proceso detallado y meticuloso. Aquí les dejo una breve descripción de cómo hacerlo:</p>
+                            <p>
+                                Primero, necesitarán un patrón de corsé que se ajuste a sus medidas. Pueden comprar un patrón o hacer uno ustedes mismas.
+                                Asegúrense de tomar medidas precisas de su busto, cintura y caderas.
+                            </p>
+                            <p>
+                                A continuación, corten las piezas del patrón en la tela que hayan elegido. Necesitarán dos conjuntos de cada pieza,
+                                uno para el forro y otro para el exterior del corsé.
+                            </p>
+                        </div>
+                        <div class="imagen-disenno">
+                            <img src="../imagenes/patron-corse.JPG" alt="imagen del patronado de un corse">
+                        </div>
+                    </div>
+                    <div class="parte-proceso">
+                        <div class="texto-seccion">
+                            <p>
+                                Luego, cosan las piezas juntas, empezando por el centro del corsé y trabajando hacia los lados.
+                                Asegúrense de que dejan un margen de costura.
+                            </p>                        
+                            <p>
+                                Después, inserten las varillas de acero (o el material que hayan elegido para dar estructura al corsé) en las costuras.
+                                Estas varillas ayudarán a dar forma al corsé y a mantenerlo en su lugar.
+                            </p>                        
+                            <p>                        
+                                Finalmente, añadan los ojales y el cordón en la parte trasera del corsé. Esto permitirá ajustar el corsé a sus cuerpos.
+                            </p>
+                            
+                    </div>
+                    <div class="imagen-disenno">
+                        <img src="../imagenes/confeccion-corse.jpg" alt="imagen de la confeccion dea un corse">
+                    </div>
+                    </div>
+                </article>
+                
+                <article class="mi-corse">
+                    <h3>Aquí abajo les dejo unas imagenes de como quedó el corsé que creé y un videito del proceso:</h3>
+                    
+                    <div class="contenedor">
+                        <div class="imagen-contenedor">
+                            <img src="../imagenes/corse1.JPG" alt="imagen del corse que hice">
+                        </div>
+                        <div class="imagen-contenedor">
+                            <video controls autoplay>
+                                <source src="../imagenes/corse-video.mov" type="video/mp4" alt="video del corse que hice">
+                              </video>
+                        </div>
+                        <div class="imagen-contenedor">
+                            <img src="../imagenes/corse2.JPG" alt="imagen del corse que hice">
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <aside class="enlaces-redes">
+            <h3>
+                Visita mis redes:
+            </h3>
+            <a href="https://www.facebook.com/profile.php?id=100087753283803&mibextid=tzlV2A" target="_blank">
+                <img src="../imagenes/facebook.png" width="80%" height="80%">
+            </a>
+            <a href="https://instagram.com/mvillalobb?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                <img src="../imagenes/instagram.png" width="80%" height="80%">
+            </a>
+            <a href="https://www.tiktok.com/@mariamvillalobos1?_t=8hiOTLaPm0j&_r=1" target="_blank">
+                <img src="../imagenes/tik-tok.png" width="80%" height="80%">
+            </a>
+        </aside>
+        <footer>
+            <div class="autor">
+                Autoría y licencias: Página web realizada por Dorkaitz García Martínez con fines educativos.
+                Todos los derechos de las imágenes y videos están reservados y pertenecen a sus autores.
+            </div>
+        </footer>
+    </body>
+</html>

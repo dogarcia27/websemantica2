@@ -1,0 +1,128 @@
+/*  Requisitos: 
+        El diseño principal se realiza usando flexbox y además, se utilizan al menos 
+        otros 3 métodos de posicionamiento (absoluto, relativo, float...)
+        
+        Se utilizan medidas relativas para mejorar la accesibilidad
+
+*   Colores a utilizar:
+        rosas: cc8b86, cda48e, 763332, 7d4f50,
+        blancos: f7f3d8, f9eae1,
+        verdes: 379d7b,
+        dorados: dac26e, 
+        marrones: d1be9c, aa998f
+
+*/
+/* Fuentes de la api de google */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* He creado un archivo diferente para los estilos de los elementos diferentes en cada página */
+
+/* fin transformaciones */
+/* Quiero usar una paleta de colores en toda la web y poder cambiarlos de forma rápida en caso
+ * de ser necesario
+ * ELEMENTO INNOVADOR 1
+ */
+:root {
+    --fondo-main: rgba(255, 255, 255, 0.6);
+    --fondo-body: #f6cbb8;
+    --color-footer: #441d1a;
+    --color-redes: #913832;
+    --fuente-nav: #ba7b5c;
+}
+/* Reglas para toda la web */ 
+body {
+    width: 100vw;
+    margin: 0;
+    background-color: var(--fondo-body);
+}
+/* Reglas para los encabezados de cada pág */
+header {
+    margin: 0;
+    text-align: center;
+    padding: 1% 0;
+    
+}
+/* Menu navegacion */
+nav {
+    font-size: 1.6em;
+    position: sticky;
+    top: 0;
+    border-top: 1px solid var(--fuente-nav);
+    border-bottom: 1px solid var(--fuente-nav);
+    padding-top: 0;
+    background-color: var(--fondo-body);
+    display: flex;
+    justify-content: center;
+}
+.menu-navegacion ul {
+    margin: 0.5em 0;
+}
+.menu-navegacion li {
+    display: inline;
+    margin: 0 0 0 3em;
+    color: var(--fuente-nav);
+    font-family: "Kaushan Script";
+}
+
+/* fin Menu navegacion */
+/* fin Cabecera */
+
+/* enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* fin enlaces */
+
+/* Reglas para Main*/
+main {
+    width: 100%;
+    text-align: center;
+    padding: 1% 0 3%;
+    background-color: var(--fondo-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1 {
+    font-family: "Kaushan Script";
+
+}
+section {
+    width: 60%;
+    
+}
+p {
+    font-size: 1.5em;
+    margin:0.5%;
+}
+/* fin main */
+
+/* Reglas enlaces a redes sociales */
+.enlaces-redes {
+    width: 70px;
+    border: solid 3px;
+    border-radius: 2.5em;
+    padding: 1em 0.1em 1em;
+    background-color: var(--color-redes);
+    text-align: center;
+    font-size:1.2em;
+    position: fixed;
+    right: 5%;
+    top: 35%;
+}
+.enlaces-redes img {
+    margin-top: 1em;
+}
+/* Reglas para los footer */
+footer {
+    width: 100%;
+    padding: 2%;
+    color:#f9dad1;
+    font-size: 1.2em;
+    background-color: var(--color-footer);
+}
+/* fin footer */
+
